@@ -1,5 +1,4 @@
 {
-  "homepage": "http://evacherkashyna.github.io/quizzes",
   "name": "quizzes",
   "version": "0.1.0",
   "private": true,
@@ -20,15 +19,14 @@
     "recharts": "^2.7.2",
     "redux-saga": "^1.2.3",
     "styled-components": "^6.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-   " predeploy":"npm run build",
-   "deploy":"gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
