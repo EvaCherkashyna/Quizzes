@@ -16,7 +16,7 @@ const ListOfQuizzes = () => {
 
   return (
     <Wrapper>
-      {pending ? <p>Loading...</p> 
+      {pending ? <p style={{color:"white",fontSize:"1.6rem"}}>Loading...</p> 
        : categories.map((quiz, i) => <Quiz key={i} quiz={quiz}></Quiz>)}
     </Wrapper>
   )
