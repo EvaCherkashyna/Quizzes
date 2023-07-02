@@ -2,16 +2,18 @@ import React from "react";
 import { useSelector } from 'react-redux';
 
 import Wrapper from "../assets/wrappers/Stats"
-import {StatsBanner,CardQuiz} from '../components';
+import { StatsBanner, CardQuiz } from '../components';
 
 const Stats = () => {
   const stats = useSelector(state => state.stats.quizzes)
-
   return (
     <Wrapper>
-      <StatsBanner />
-      <div className="stats-quizzes">
-     { stats.map((quizze)=><CardQuiz quizze={quizze}/>)}</div>
+        <StatsBanner />
+        <div className="stats-quizzes">
+
+          {stats.map((quizze) => <CardQuiz quizze={quizze} />)}
+      </div>
+
     </Wrapper>
   )
 }

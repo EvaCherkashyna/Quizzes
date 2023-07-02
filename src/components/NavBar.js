@@ -14,6 +14,8 @@ const NavBar = () => {
       </p>
       {(location.pathname.includes("finish") || location.pathname.includes("stats"))
         && <Link className="nav-link" to="/">Home</Link>}
+      {(location.pathname.includes("finish"))
+        && <Link className="nav-link" to="/stats">Stats</Link>}
     </Wrapper>
   )
 }

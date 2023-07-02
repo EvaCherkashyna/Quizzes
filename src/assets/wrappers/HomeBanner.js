@@ -13,7 +13,6 @@ const Wrapper = styled.section`
   background-position: center;
   background-size: contain;
   box-shadow: inset rgb(53 171 180) 0px -20px 35px 10px, inset rgb(53 171 180) 50px 0px 1000px 44px;
- 
   & .home-title{
     position: relative;
     display: flex;

@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 import { AiFillPieChart } from "react-icons/ai";
 const HomeBanner = () => {
   const categories = useSelector((state) => state.categories.categories)
+  const stats = useSelector(state => state.stats)
 
   return (
     <Wrapper>
