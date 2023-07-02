@@ -18,8 +18,8 @@ const StatsBanner = () => {
         
         <Wrapper>
         <h1 className='banner-title'>Your Average Score: {totalCorrectPercent}%</h1>
-        <p className="banner-paragraph"><AiFillCheckCircle className='banner-icon' /> Passed quizzes:{stats.amountQuizzes}</p>
-        <p className="banner-paragraph"><AiFillClockCircle className='banner-icon' /> Average quiz time: {moment.unix(stats.totalTime).format("mm:ss")}</p>
+        <p className="banner-paragraph"><AiFillCheckCircle className='banner-icon' /> Passed quizzes: {stats.amountQuizzes}</p>
+        <p className="banner-paragraph"><AiFillClockCircle className='banner-icon' /> Average quiz time: {moment.unix(stats.totalTime/stats.amountQuizzes).format("mm:ss")}</p>
         <p className="banner-paragraph"><AiFillQuestionCircle className='banner-icon' /> Correct answers: {stats.correctAnswers}/{stats.correctAnswers + stats.incorrectAnswers}</p>
       </Wrapper>
     }

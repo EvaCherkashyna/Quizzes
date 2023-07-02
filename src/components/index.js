@@ -1,5 +1,5 @@
 import Card from "./Card";
-import CardQuiz from "./CardQuizze"
+import CardQuiz from "./CardQuiz"
 import CardStatistics from "./CardStatistics";
 import FinishBanner from "./FinishBanner";
 import HomeBanner from "./HomeBanner";

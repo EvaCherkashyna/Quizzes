@@ -6,12 +6,12 @@ import { StatsBanner, CardQuiz } from '../components';
 
 const Stats = () => {
   const stats = useSelector(state => state.stats.quizzes)
+ 
   return (
     <Wrapper>
         <StatsBanner />
         <div className="stats-quizzes">
-
-          {stats.map((quizze) => <CardQuiz quizze={quizze} />)}
+          {stats.map((quizze,i) => <CardQuiz key={i} quizze={quizze} />)}
       </div>
 
     </Wrapper>

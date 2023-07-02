@@ -31,7 +31,7 @@ const Wrapper = styled.article`
     font-size: 20px;
 
     & .card-title{
-      font-size: 16px;
+      font-size: 2rem;
     }
   }
 
