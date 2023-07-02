@@ -10,9 +10,12 @@ const Stats = () => {
   return (
     <Wrapper>
         <StatsBanner />
+    {    stats.length>0?
         <div className="stats-quizzes">
+         <div className="stats-quizzes-title"><p>Passed quizzes:</p></div>
           {stats.map((quizze,i) => <CardQuiz key={i} quizze={quizze} />)}
       </div>
+      :null}
 
     </Wrapper>
   )
