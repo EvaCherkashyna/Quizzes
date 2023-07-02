@@ -1,7 +1,7 @@
 {
   "name": "quizzes",
   "version": "0.1.0",
-  "homepage": "https://EvaCherkashyna.github.io/Quizzes",
+  "homepage": "https://evacherkashyna.github.io/quizzes",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
